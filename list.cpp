@@ -1,11 +1,11 @@
 #include "list.h"
 
-List::List()
+ListDataStructure::ListDataStructure()
 {
 
 }
 
-List::~List()
+ListDataStructure::~ListDataStructure()
 {
     NodeOfList* initialHead = head;
     if (initialHead != nullptr)
@@ -21,7 +21,7 @@ List::~List()
     }
 }
 
-void List::insertInHead(const std::string& data)
+void ListDataStructure::insertInHead(const std::string& data)
 {
     struct NodeOfList* tmp = new NodeOfList(data);
 
@@ -36,7 +36,7 @@ void List::insertInHead(const std::string& data)
     }
 }
 
-void List::insertInTail(const std::string& data)
+void ListDataStructure::insertInTail(const std::string& data)
 {
     struct NodeOfList* tmp = new NodeOfList(data);
 
@@ -51,7 +51,7 @@ void List::insertInTail(const std::string& data)
     }
 }
 
-NodeOfList *List::removeInHead()
+NodeOfList *ListDataStructure::removeInHead()
 {
     if (head == nullptr)
         return nullptr;
@@ -72,7 +72,7 @@ NodeOfList *List::removeInHead()
     }
 }
 
-NodeOfList *List::removeInTail()
+NodeOfList *ListDataStructure::removeInTail()
 {
     if (head == nullptr)
         return nullptr;
@@ -100,7 +100,7 @@ NodeOfList *List::removeInTail()
     }
 }
 
-std::vector<std::string> List::getElementsAsVector()
+std::vector<std::string> ListDataStructure::getElementsAsVector()
 {
     std::vector<std::string> vec;
     NodeOfList* tmp = head;

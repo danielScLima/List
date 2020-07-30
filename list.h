@@ -33,17 +33,17 @@ struct NodeOfList
 };
 
 /*!
- * \brief The List class
+ * \brief The ListDataStructure class
  */
-class List
+class ListDataStructure
 {
 public:
     /*!
-     * \brief List
+     * \brief ListDataStructure
      */
-    List();
+    ListDataStructure();
     
-    ~List();
+    ~ListDataStructure();
 
     /*!
      * \brief insertInHead

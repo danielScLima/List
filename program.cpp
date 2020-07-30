@@ -6,7 +6,7 @@
 
 TEST_CASE( "Testing the insert and remove in the head", "[single-file]" )
 {
-	List l;
+	ListDataStructure l;
 	NodeOfList* node = nullptr;
 
 	l.insertInHead("a");
@@ -28,7 +28,7 @@ TEST_CASE( "Testing the insert and remove in the head", "[single-file]" )
 
 TEST_CASE( "Testing the leak ocurrence", "[single-file]" )
 {
-	List l;
+	ListDataStructure l;
 	NodeOfList* node = nullptr;
 
 	l.insertInHead("a");
@@ -38,7 +38,7 @@ TEST_CASE( "Testing the leak ocurrence", "[single-file]" )
 
 TEST_CASE( "Testing the insert in head and remove in the tail", "[single-file]" )
 {
-	List l;
+	ListDataStructure l;
 	NodeOfList* node = nullptr;
 
 	l.insertInHead("a");
@@ -60,7 +60,7 @@ TEST_CASE( "Testing the insert in head and remove in the tail", "[single-file]" 
 
 TEST_CASE( "Testing the insert in tail and remove in the head", "[single-file]" )
 {
-	List l;
+	ListDataStructure l;
 	NodeOfList* node = nullptr;
 
 	l.insertInTail("a");
@@ -82,7 +82,7 @@ TEST_CASE( "Testing the insert in tail and remove in the head", "[single-file]" 
 
 TEST_CASE( "Testing the insert in tail and remove in the tail", "[single-file]" )
 {
-	List l;
+	ListDataStructure l;
 	NodeOfList* node = nullptr;
 
 	l.insertInTail("a");
