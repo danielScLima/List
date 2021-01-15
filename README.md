@@ -1,5 +1,7 @@
 List
 ====================
+Building with AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/bemef5d841cf5w6r?svg=true)](https://ci.appveyor.com/project/DanielSLima/list)
+
 Building with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/List.svg?branch=master)](https://www.travis-ci.com/danielScLima/List)
 
 This repository has a project with the implementation of a List.
