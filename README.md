@@ -1,5 +1,6 @@
 List
 ====================
+Building with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/List.svg?branch=master)](https://www.travis-ci.com/danielScLima/List)
 
 This repository has a project with the implementation of a List.
 
